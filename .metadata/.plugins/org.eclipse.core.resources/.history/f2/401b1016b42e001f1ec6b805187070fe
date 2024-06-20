@@ -1,0 +1,9 @@
+<html>
+<body>
+<h2>welcome Teachers you find your Students Data here !</h2>
+<form action="SearchStudent1">
+Enter Student Roll No : <input type="text" name="t1"><br>
+<input type="submit" value ="Search">
+</form>
+</body>
+</html>

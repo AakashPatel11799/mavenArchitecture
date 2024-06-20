@@ -1,0 +1,19 @@
+package com.db;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class StudentInfo {
+
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("src/main/resources/info.xml"); 
+		
+		Student s1=context.getBean("s1",Student.class);
+		
+		s1.setId(101);
+		s1.setName("ram");
+         System.out.println(s1);		
+
+	}
+
+}

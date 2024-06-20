@@ -1,0 +1,15 @@
+<%@ page isELignored="false""%>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<pre>
+Student name ${Student.name}
+Student name ${Student.batch}
+Student name ${Student.marks}
+Student name ${Student.DOJ}
+</pre>
+</body>
+</html>

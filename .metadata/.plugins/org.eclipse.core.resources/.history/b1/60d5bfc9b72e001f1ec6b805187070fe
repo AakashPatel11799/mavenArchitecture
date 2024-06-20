@@ -1,0 +1,11 @@
+<%@ page isELIgnored="false" %>
+<html>
+<body>
+<pre>
+Students Name $ {student.name}
+Students Marks $ {student.marks}
+Students Batch $ {student.batch}
+Students DOj $ {student.DOJ}
+</pre>
+</body>
+</html>

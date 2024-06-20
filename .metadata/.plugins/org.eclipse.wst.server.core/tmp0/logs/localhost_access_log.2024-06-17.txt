@@ -1,0 +1,11 @@
+127.0.0.1 - - [17/Jun/2024:16:11:19 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:16:11:20 +0530] "GET /maven-spring/input.html HTTP/1.1" 200 231
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:16:11:20 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:16:11:39 +0530] "GET /maven-spring/SearchStudent1?r1=101 HTTP/1.1" 500 1299
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:16:12:55 +0530] "GET /maven-spring/SearchStudent1?r1=101 HTTP/1.1" 200 68
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:16:13:48 +0530] "GET /maven-spring/input.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:16:13:58 +0530] "GET /maven-spring/SearchStudent1?r1=101 HTTP/1.1" 200 68
+127.0.0.1 - - [17/Jun/2024:23:35:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:23:35:31 +0530] "GET /maven-spring/input.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:23:35:31 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [17/Jun/2024:23:35:49 +0530] "GET /maven-spring/SearchStudent1?r1=101 HTTP/1.1" 200 68

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Spring_Core/src/test/resources/Info.cgf.xml&apos; to &apos;info.cgf.xml&apos;" description="Rename resource &apos;Info.cgf.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/Info.cgf.xml" name="info.cgf.xml" stamp="1717815487490" updateReferences="true"/>
+</session>

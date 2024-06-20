@@ -1,0 +1,19 @@
+package com.auto;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.db.Students;
+
+public class StudentData {
+
+	public static void main(String[] args) {
+		
+           ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("info.xml");
+		
+		Student s1=(Student)context.getBean("s1");
+		
+		System.out.println(s1);
+		
+	}
+
+}

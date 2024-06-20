@@ -1,0 +1,17 @@
+package com.db;
+
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan
+public class ProjectConfig {
+	
+	@Bean
+	public Student s1()
+	{
+		Student s= new Student(101,"ram");
+		return s;
+	}
+
+}

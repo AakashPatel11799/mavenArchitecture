@@ -1,0 +1,9 @@
+<%@  page isELIgnored="false"%>
+<html>
+<body>
+<form action="StudentDataSearch">
+Enter Student Roll No : <input type="text" name="t1">
+<input type="submit" value ="Search">
+</form>
+</body>
+</html>

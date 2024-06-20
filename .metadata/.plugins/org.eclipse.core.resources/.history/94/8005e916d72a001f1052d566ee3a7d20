@@ -1,0 +1,24 @@
+package com.auto;
+
+public class Student1 {
+	
+	private int id;
+	private String name;
+	private Address address;
+	
+	public Student1(int id, String name, Address address) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "Student1 [id=" + id + ", name=" + name + ", address=" + address + "]";
+	}
+	
+	
+	
+
+}

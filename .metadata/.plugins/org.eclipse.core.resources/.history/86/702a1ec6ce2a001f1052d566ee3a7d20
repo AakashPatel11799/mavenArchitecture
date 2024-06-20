@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> 
+        
+        <!-- bean definitions here -->
+      
+ <!--  <bean id="s1" class="com.auto.Student" autowire="byName">
+ 
+      <bean id="s1" class="com.auto.Student1" autowire="constructor">
+         <property name="id" value="101" />
+         <property name="name" value="ram" />
+         
+       </bean>
+
+        <bean id="address1" class="com.auto.Address">
+        
+        <property name="houseNo" value="99"/>
+         <property name="street" value="bholaram"/>
+         <property name="city" value="indore"/>
+         <property name="state" value="mp"/>  
+                
+        </bean> **/  -->
+        
+        <bean id="s1" class="com.auto.Student1" autowire="constructor">
+        <constructor-arg value="101" index="0" />
+        <constructor-arg value="shyam" index="1"/>
+     </bean>
+     
+      <bean id="address1" class="com.auto.Address1" >
+        <constructor-arg value="990" />
+        <constructor-arg value="bholaram ji ustad" />
+         <constructor-arg value="indore" />
+        <constructor-arg value="mp" />
+     </bean>
+</beans>

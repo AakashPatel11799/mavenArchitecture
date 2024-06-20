@@ -1,0 +1,17 @@
+package com.db.service;
+
+import com.db.dao.StudentDao;
+
+public class StudentService {
+
+	private  StudentDao studDao;
+	public StudentService() 
+	{
+		studDao=new StudentDao();
+	}
+	public Students findById(int id)
+	{
+		
+	}
+	
+}

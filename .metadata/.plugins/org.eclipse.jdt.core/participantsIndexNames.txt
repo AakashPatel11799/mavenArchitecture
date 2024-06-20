@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Users\DELL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\20801819.index
+\maven-spring\src\main\resources
+C:\Users\DELL\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2589073445.index
+\maven-spring\src\main\java
