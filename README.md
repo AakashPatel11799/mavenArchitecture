@@ -1,0 +1,2 @@
+# mavenArchitecture
+Mavenspring
